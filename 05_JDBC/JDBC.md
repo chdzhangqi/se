@@ -1,0 +1,24 @@
+- JDBC用来干嘛的？使用JDBC提供 一个一对多的关系
+- 数据库：SQL、SERVER、ORACEL、MYSQL、DB2...
+- 设计思想：根据OOP的原则：接口隔离
+    - Connection接口：提供连接数据库的操作
+    - Statement接口
+    - PrepareStatement接口
+    - ResultSet接口
+- JAVA的类加载机制：采用双亲委派机制和JAVA安全沙箱来保证JVM安全
+    - 双亲委派：Bootstrap ClassLoader，Ext ClassLoader，System ClassLoader，用户自定义
+- ORM如何设计
+    - 由数据库到对象
+        - 1. 找到数据库
+        - 2. 找到表
+        - 3. 读取表中相对应的信息
+        - 4. 根据列的信息构造对象的属性
+    - 由对象到表
+        - 1. 创建数据库
+        - 2. 创建表(默认与类名一样)
+        - 3. 将对象的属性变成列数据
+- 创建类
+    - 1. 指明输出地点
+    - 2. 构建类名
+    - 3. 写入属性
+    - 4. 封装属性
